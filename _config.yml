@@ -30,3 +30,7 @@ exclude:
   - PaperStructure.md
   - Gemfile
   - Gemfile.lock
+  - package.json
+  - vite.config.js
+  - node_modules/
+  - src/

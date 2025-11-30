@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom/client'
-import AgentLoopVisualizer from '../Sections/1.1/AgentLoopVisuslier_S1_1.jsx'
-import CharacteristicExplorer from '../Sections/1.2/CharacteristicExplorer_S1_2.jsx'
-import TradeLifecycleVisualizer from '../Sections/1.3/TradeLifecycleVisualizer_S1_3.jsx'
+import AgentLoopVisualizer from './AgentLoopVisuslier_S1_1.jsx'
+import CharacteristicExplorer from './CharacteristicExplorer_S1_2.jsx'
+import TradeLifecycleVisualizer from './TradeLifecycleVisualizer_S1_3.jsx'
 
 function App() {
   const [activeArtifact, setActiveArtifact] = useState('agent-loop')

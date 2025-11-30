@@ -1,18 +1,25 @@
 # Site settings
-title: "Architectural Constraints for Autonomous Agents in Financial Systems"
+title: "Agents in Finance"
 description: "A Design Constraints Framework for Financial AI Systems"
 author: "Spiff"
+baseurl: "/financial-agents-framework"
+url: "https://spiffler33.github.io"
+
+# Theme - using Just the Docs (modern, clean)
+remote_theme: just-the-docs/just-the-docs
+
+# Color scheme
+color_scheme: dark
+
+# Aux links (top right)
+aux_links:
+  "GitHub": "https://github.com/spiffler33/financial-agents-framework"
+
+# Footer
+footer_content: "Work in progress — November 2025"
 
 # Build settings
-theme: minima
 markdown: kramdown
-
-# Minima theme customization
-minima:
-  skin: dark
-
-# Permalink structure - keeps URLs clean
-permalink: /:title/
 
 # Exclude files from build
 exclude:
@@ -21,11 +28,5 @@ exclude:
   - .DS_Store
   - README.md
   - PaperStructure.md
-
-# Navigation header links
-header_pages:
-  - index.md
-  - sections/part1.md
-
-# Show excerpts on home page
-show_excerpts: false
+  - Gemfile
+  - Gemfile.lock

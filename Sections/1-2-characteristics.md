@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: default
 title: "1.2 Characteristics of LLM Agents"
-parent: "Part 1: The Current State"
-nav_order: 2
+nav_order: 3
 ---
 
 ## 1.2 Characteristics of LLM Agents That Inform Architecture
@@ -203,6 +202,4 @@ The eight-layer framework in Part 3 provides concrete architectural patterns for
 
 ---
 
-**Previous:** [Section 1.1 — How LLM Agents Actually Work]({% link Sections/1-1-how-llm-agents-work.md %})
-
-**Next:** [Section 1.3 — How Financial Infrastructure Actually Works]({% link Sections/1-3-financial-infrastructure.md %})
+[← Section 1.1]({{ site.baseurl }}/Sections/1-1-how-llm-agents-work/) · [Home]({{ site.baseurl }}/) · [Section 1.3 →]({{ site.baseurl }}/Sections/1-3-financial-infrastructure/)

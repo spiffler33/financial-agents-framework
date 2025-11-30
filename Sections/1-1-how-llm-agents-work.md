@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: default
 title: "1.1 How LLM Agents Actually Work"
-parent: "Part 1: The Current State"
-nav_order: 1
+nav_order: 2
 ---
 
 # Part 1: The Current State — Agents and Financial Infrastructure
@@ -134,4 +133,4 @@ These characteristics are not temporary limitations awaiting better models. They
 
 ---
 
-**Next:** [Section 1.2 — Characteristics of LLM Agents That Inform Architecture]({% link Sections/1-2-characteristics.md %})
+[← Home]({{ site.baseurl }}/) · [Next: Section 1.2 →]({{ site.baseurl }}/Sections/1-2-characteristics/)

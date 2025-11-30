@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Home
 nav_order: 1
 ---
@@ -7,8 +7,6 @@ nav_order: 1
 # Architectural Constraints for Autonomous Agents in Financial Systems
 
 **A Design Constraints Framework for Financial AI Systems**
-
-*Work in progress — November 2025*
 
 ---
 
@@ -27,10 +25,10 @@ A practitioner's framework for thinking about how AI agents should be architecte
 ### Part 1: The Current State — Agents and Financial Infrastructure
 
 | Section | Title | Status |
-|---------|-------|--------|
-| [1.1]({% link Sections/1-1-how-llm-agents-work.md %}) | How LLM Agents Actually Work | Complete |
-| [1.2]({% link Sections/1-2-characteristics.md %}) | Characteristics of LLM Agents That Inform Architecture | Complete |
-| [1.3]({% link Sections/1-3-financial-infrastructure.md %}) | How Financial Infrastructure Actually Works | Complete |
+|:--------|:------|:-------|
+| [1.1]({{ site.baseurl }}/Sections/1-1-how-llm-agents-work/) | How LLM Agents Actually Work | Complete |
+| [1.2]({{ site.baseurl }}/Sections/1-2-characteristics/) | Characteristics of LLM Agents That Inform Architecture | Complete |
+| [1.3]({{ site.baseurl }}/Sections/1-3-financial-infrastructure/) | How Financial Infrastructure Actually Works | Complete |
 
 ### Part 2: Dimensions That Scale Architectural Requirements
 *Coming soon*
@@ -45,18 +43,12 @@ A practitioner's framework for thinking about how AI agents should be architecte
 
 ## Interactive Artifacts
 
-These visualizers accompany the paper sections:
-
 | Artifact | Section | Link |
-|----------|---------|------|
-| Agent Loop Visualizer | 1.1 | *Coming soon* |
-| Characteristic Explorer | 1.2 | *Coming soon* |
-| Trade Lifecycle Visualizer | 1.3 | *Coming soon* |
+|:---------|:--------|:-----|
+| Agent Loop Visualizer | 1.1 | [Open in StackBlitz](https://stackblitz.com/github/spiffler33/financial-agents-framework?file=Sections/1.1/AgentLoopVisuslier_S1_1.jsx) |
+| Characteristic Explorer | 1.2 | [Open in StackBlitz](https://stackblitz.com/github/spiffler33/financial-agents-framework?file=Sections/1.2/CharacteristicExplorer_S1_2.jsx) |
+| Trade Lifecycle Visualizer | 1.3 | [Open in StackBlitz](https://stackblitz.com/github/spiffler33/financial-agents-framework?file=Sections/1.3/TradeLifecycleVisualizer_S1_3.jsx) |
 
 ---
 
-## About
-
-Written by Spiff. This is a personal research project, not professional advice.
-
-[View the full project plan](https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/PaperStructure.md)
+*Written by Spiff. Personal research project, not professional advice.*

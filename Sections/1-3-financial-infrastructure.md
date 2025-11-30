@@ -1,8 +1,7 @@
 ---
-layout: page
-title: "1.3 How Financial Infrastructure Actually Works"
-parent: "Part 1: The Current State"
-nav_order: 3
+layout: default
+title: "1.3 Financial Infrastructure"
+nav_order: 4
 ---
 
 ### 1.3 How Financial Infrastructure Actually Works
@@ -147,6 +146,6 @@ Part 2 examines how these operational realities translate into architectural req
 
 ---
 
-**Previous:** [Section 1.2 — Characteristics of LLM Agents That Inform Architecture]({% link Sections/1-2-characteristics.md %})
+[← Section 1.2]({{ site.baseurl }}/Sections/1-2-characteristics/) · [Home]({{ site.baseurl }}/)
 
 **Next:** Part 2 — Dimensions That Scale Architectural Requirements *(Coming soon)*

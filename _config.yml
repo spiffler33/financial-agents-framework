@@ -1,0 +1,31 @@
+# Site settings
+title: "Architectural Constraints for Autonomous Agents in Financial Systems"
+description: "A Design Constraints Framework for Financial AI Systems"
+author: "Spiff"
+
+# Build settings
+theme: minima
+markdown: kramdown
+
+# Minima theme customization
+minima:
+  skin: dark
+
+# Permalink structure - keeps URLs clean
+permalink: /:title/
+
+# Exclude files from build
+exclude:
+  - Old/
+  - "*.jsx"
+  - .DS_Store
+  - README.md
+  - PaperStructure.md
+
+# Navigation header links
+header_pages:
+  - index.md
+  - sections/part1.md
+
+# Show excerpts on home page
+show_excerpts: false

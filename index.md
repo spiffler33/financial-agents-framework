@@ -43,11 +43,18 @@ A practitioner's framework for thinking about how AI agents should be architecte
 
 ## Interactive Artifacts
 
-| Artifact | Section | Link |
-|:---------|:--------|:-----|
-| Agent Loop Visualizer | 1.1 | [Open in StackBlitz](https://stackblitz.com/github/spiffler33/financial-agents-framework?file=Sections/1.1/AgentLoopVisuslier_S1_1.jsx) |
-| Characteristic Explorer | 1.2 | [Open in StackBlitz](https://stackblitz.com/github/spiffler33/financial-agents-framework?file=Sections/1.2/CharacteristicExplorer_S1_2.jsx) |
-| Trade Lifecycle Visualizer | 1.3 | [Open in StackBlitz](https://stackblitz.com/github/spiffler33/financial-agents-framework?file=Sections/1.3/TradeLifecycleVisualizer_S1_3.jsx) |
+Explore the concepts visually:
+
+<iframe
+  src="https://stackblitz.com/github/spiffler33/financial-agents-framework/tree/master/artifacts?embed=1&view=preview&hideNavigation=1"
+  style="width:100%; height:600px; border:1px solid #333; border-radius:8px;"
+  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
+
+<p style="text-align:center; margin-top:8px;">
+  <a href="https://stackblitz.com/github/spiffler33/financial-agents-framework/tree/master/artifacts" target="_blank">Open full screen in StackBlitz ↗</a>
+</p>
 
 ---
 

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import AgentLoopVisualizer from './AgentLoopVisuslier_S1_1.jsx'
 import CharacteristicExplorer from './CharacteristicExplorer_S1_2.jsx'
 import TradeLifecycleVisualizer from './TradeLifecycleVisualizer_S1_3.jsx'
+import ArchitecturalAssessmentTool from './ArchitecturalAssessmentTool.jsx'
 
 function App() {
   const [activeArtifact, setActiveArtifact] = useState('agent-loop')
@@ -11,6 +12,7 @@ function App() {
     'agent-loop': { name: '1.1 Agent Loop', component: AgentLoopVisualizer },
     'characteristics': { name: '1.2 Characteristics', component: CharacteristicExplorer },
     'trade-lifecycle': { name: '1.3 Trade Lifecycle', component: TradeLifecycleVisualizer },
+    'assessment': { name: '2. Assessment Tool', component: ArchitecturalAssessmentTool },
   }
 
   const ActiveComponent = artifacts[activeArtifact].component

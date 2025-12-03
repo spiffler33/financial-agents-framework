@@ -146,6 +146,4 @@ Part 2 examines how these operational realities translate into architectural req
 
 ---
 
-[← Section 1.2]({{ site.baseurl }}/Sections/1-2-characteristics/) · [Home]({{ site.baseurl }}/)
-
-**Next:** Part 2 — Dimensions That Scale Architectural Requirements *(Coming soon)*
+[← Section 1.2]({{ site.baseurl }}/Sections/1-2-characteristics/) · [Home]({{ site.baseurl }}/) · [Part 2 →]({{ site.baseurl }}/Sections/2-dimensions-that-scale/)

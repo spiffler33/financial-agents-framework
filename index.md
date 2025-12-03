@@ -31,7 +31,10 @@ A practitioner's framework for thinking about how AI agents should be architecte
 | [1.3]({{ site.baseurl }}/Sections/1-3-financial-infrastructure/) | How Financial Infrastructure Actually Works | Complete |
 
 ### Part 2: Dimensions That Scale Architectural Requirements
-*Coming soon*
+
+| Section | Title | Status |
+|:--------|:------|:-------|
+| [2]({{ site.baseurl }}/Sections/2-dimensions-that-scale/) | Dimensions That Scale Architectural Requirements | Complete |
 
 ### Part 3: The Eight Layers — A Scalable Framework
 *Coming soon*
